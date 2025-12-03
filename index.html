@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlaceHolder</title>
+    <title>Paradisias</title>
     <script src="script.js" defer></script>
+    <script src="source.css" defer></script>
 </head>
 <body>
+    
     <div class="header">
-    <h1>Bienvenue sur le site placeholder</h1>
-    <button>bouton 1</button>
-    <button>bouton 2</button>
+    <header>
+        <main>
+        <img src="logo_airfrance.png" alt="Logo Air France" width="200" height="100">
+        <p>Bienvenue chez Air France</p>
+        </main>
+    </header>
+    </div>  
+    <div class="nav">
+    <form id="search-form">
+        <input type="text" id="search-input" placeholder="Rechercher...">
+        <button type="submit">Rechercher</button>
+    </form>
+    
+    <select id="pays">
+        <option value="espagne">Espagne</option>
+        <option value="italie">Italie</option>
+        <option value="grece">Grèce</option>
+        <option value="portugal">Portugal</option>
+    </select>
+    
+    <input type="date" id="date-depart">
+    
+    <input type="date" id="date-retour">
+    
+    <input type="number" id="nombre-passagers" min="1" max="10" value="1">
+    
+    <input type="email" id="email" placeholder="Votre email">
+    <button type="submit">Réserver</button>
+    
     <p>Ceci est une page d'accueil temporaire pour Air France.</p>
     <p>testetsetetetete</p>
+    </div>
 
 </body>
 </html>
